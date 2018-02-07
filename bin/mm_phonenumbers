@@ -1,0 +1,7 @@
+require 'mm_phonenumbers'
+
+puts "Is Valid? : #{MmPhonenumbers.is_valid_phone(ARGV[0])}"
+
+puts "Telecom Name: #{MmPhonenumbers.get_telecom_name(ARGV[0])}"
+
+puts "Is provide? : #{MmPhonenumbers.is_provided_telecom(ARGV[1], ARGV[0])}"
