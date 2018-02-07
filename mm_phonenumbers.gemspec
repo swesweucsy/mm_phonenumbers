@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'mm_phonenumbers'
-  spec.version     = '0.0.2'
+  spec.version     = '0.0.3'
   spec.executables << 'mm_phonenumbers'
   spec.date        = '2018-02-02'
   spec.summary     = 'Validating Myanmar Mobile Numbers!'
@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email       = 'swesweucsy@gmail.com'
   spec.files       = Dir['lib/*.rb'] + Dir['lib/telecoms/*.rb'] + Dir['bin/mm_phonenumbers']
   spec.test_files  = Dir['test/*.rb']
-  spec.homepage    = 'https://github.com/swesweucsy/mm_phonenumbers.git'
+  spec.homepage    = 'https://github.com/swesweucsy/mm_phonenumbers'
   spec.license     = 'MIT'
+  
 end
