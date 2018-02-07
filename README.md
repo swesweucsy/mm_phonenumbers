@@ -5,12 +5,6 @@ Ruby port of [mm_phonenumber](https://github.com/Melomap/mm_phonenumber) to chec
 Credit: [Original script (Python)](https://github.com/Melomap/mm_phonenumber)
 [Original script (PHP)](https://github.com/johnreginald/myanmar-phone-number-php)
 
-### Installation
-
-```
-TODO
-```
-
 ## Installation
 
 Add this line to your application's Gemfile:
