@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name        = 'mm_phonenumbers'
-  spec.version     = '0.0.3'
+  spec.version     = '0.0.5'
   spec.executables << 'mm_phonenumbers'
-  spec.date        = '2018-02-02'
+  spec.date        = '2018-04-29'
   spec.summary     = 'Validating Myanmar Mobile Numbers!'
   spec.description = 'To check valid myanmar mobile numbers,get mobile operator name, 
                    sanitize mobile numbers and get mobile network types.'

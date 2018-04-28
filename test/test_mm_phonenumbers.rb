@@ -31,6 +31,8 @@ class MmPhonenumbersTest < Test::Unit::TestCase
     phone_number ||= ''
     phone_number.chomp!
 
-    assert_equal true, MmPhonenumbers.is_provided_telecom(telecom_name, phone_number)
+    assert_equal true, MmPhonenumbers.is_provided_telecom(
+      telecom_name, 
+      phone_number)
   end
 end
