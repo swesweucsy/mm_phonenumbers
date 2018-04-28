@@ -1,5 +1,7 @@
 language: ruby
 rvm:
- - 2.2
+ - ruby-head
  - jruby
- - rbx-3
+matrix:
+  allow-failures:
+    - rvm: jruby

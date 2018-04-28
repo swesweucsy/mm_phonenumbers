@@ -1,4 +1,3 @@
-require 'test/unit'
 require 'sanitize_phone'
 
 class SanitizePhoneTest < Test::Unit::TestCase
@@ -9,7 +8,7 @@ class SanitizePhoneTest < Test::Unit::TestCase
   end
 
   def test_remove_double_country_code
-    phone_number = "+9509450012345"
+    phone_number = "+95959450012345"
     assert_equal '+959450012345', 
       SanitizePhone::remove_double_country_code(phone_number)
   end
