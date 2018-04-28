@@ -1,3 +1,4 @@
+require 'test/unit'
 require 'sanitize_phone'
 
 class SanitizePhoneTest < Test::Unit::TestCase

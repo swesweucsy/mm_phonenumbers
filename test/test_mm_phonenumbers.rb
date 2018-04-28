@@ -1,3 +1,4 @@
+require 'test/unit'
 require 'mm_phonenumbers'
 
 class MmPhonenumbersTest < Test::Unit::TestCase
