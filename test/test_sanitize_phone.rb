@@ -1,7 +1,7 @@
-require 'test/unit'
+require 'minitest/autorun'
 require 'sanitize_phone'
 
-class SanitizePhoneTest < Test::Unit::TestCase
+class SanitizePhoneTest < Minitest::Test
   def test_remove_whitespace_and_dash
     phone_number = "09-450-012345 "
     assert_equal '09450012345', 

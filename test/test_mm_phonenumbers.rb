@@ -1,7 +1,7 @@
-require 'test/unit'
+require 'minitest/autorun'
 require 'mm_phonenumbers'
 
-class MmPhonenumbersTest < Test::Unit::TestCase
+class MmPhonenumbersTest < Minitest::Test
   def test_is_valid_phone
     phone_number = "092012345"
     
